@@ -21,7 +21,9 @@ function App() {
     const openNav = () => {
       if(cardIncrement!=0){
          setIsOpen(true);
-      }  
+      } else{
+        alert('Please select some product options before adding this product to your cart')
+      } 
     };
   
     const closeNav = () => {
@@ -108,6 +110,7 @@ function App() {
 
   return (
     <>
+    
      <Navbar cardIncrement={cardIncrement} openNav={openNav} />
     <Cart isInCart={isInCart} handCartDcerment={handCartDcerment} setCardValue={setCardvalue} data={data} setData={setData} cartvalue={cartvalue}  SetIncrement={SetIncrement} handAddCartIncerment={handAddCartIncerment}  />
    <Cartmodule setCartQuality={setCartQuality} data={data} cartQuality={cartQuality} isOpen={isOpen}  closeNav={closeNav} CardRomvebutton={CardRomvebutton} cartTotalValue={cartTotalValue} setCartTotalValue={setCartTotalValue}   /> 
