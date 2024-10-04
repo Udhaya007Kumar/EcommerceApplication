@@ -72,7 +72,7 @@ const Cartmodule = ({data,isOpen,openNav,closeNav,cartQuality,CardRomvebutton,ca
                 
             }
             <div className='bg-gray-200 p-5 rounded-lg mt-5'>
-                <h4 className='text-xl font-bold'>Total Value: ${totalValue.toFixed(2)}</h4>
+                <h4 className=' text-end font-bold text-2xl xl:text-xl xl:font-bold'>Total Value: ${totalValue.toFixed(2)}</h4>
             </div>
             
         </div>
