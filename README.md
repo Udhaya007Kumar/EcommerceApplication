@@ -1,8 +1,12 @@
-# React + Vite
+# Add to Cart Task Using Modal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Use the Fake Store API to fetch a list of products.
+Display the fetched products in a user-friendly format on the main page.
+Each product should display key information, such as the product image, title, price, and add to cart button.
+When the add to cart button is clicked it should add the product in the cart.
+When the product is already added to the cart display the Alert with the message  “Item already added to the cart”.
+Ensure that the products are displayed in a responsive layout.
+Display the current cart items count in a Navbar component.
+A modal should open, If a user clicks the "Cart" button which contains no.of.products in the cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
